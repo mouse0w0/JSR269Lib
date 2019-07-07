@@ -46,7 +46,9 @@ Gradle:
 
 Step 3. Add the processor for initializing environment
 
-Add `com.github.mouse0w0.jsr269lib.EnvironmentInitializer` to your `META-INF/services/javax.annotation.processing.Processor` file:
+Add `com.github.mouse0w0.jsr269lib.EnvironmentInitializer` to your `javax.annotation.processing.Processor` file:
+
+META-INF/services/javax.annotation.processing.Processor
 ```
 com.github.mouse0w0.jsr269lib.EnvironmentInitializer
 ...
