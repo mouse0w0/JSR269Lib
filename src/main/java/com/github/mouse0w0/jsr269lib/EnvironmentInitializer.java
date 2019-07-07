@@ -1,7 +1,5 @@
 package com.github.mouse0w0.jsr269lib;
 
-import com.github.mouse0w0.jsr269lib.Environment;
-
 import javax.annotation.processing.Completion;
 import javax.annotation.processing.ProcessingEnvironment;
 import javax.annotation.processing.Processor;
