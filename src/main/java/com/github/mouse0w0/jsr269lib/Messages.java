@@ -65,6 +65,25 @@ public class Messages {
         message(Diagnostic.Kind.WARNING, msg, e, a, v);
     }
 
+    public static void mandatory(CharSequence msg) {
+        message(Diagnostic.Kind.MANDATORY_WARNING, msg);
+    }
+
+    public static void mandatory(CharSequence msg, Element e) {
+        message(Diagnostic.Kind.MANDATORY_WARNING, msg, e);
+    }
+
+    public static void mandatory(CharSequence msg, Element e, AnnotationMirror a) {
+        message(Diagnostic.Kind.MANDATORY_WARNING, msg, e, a);
+    }
+
+    public static void mandatory(CharSequence msg,
+                                 Element e,
+                                 AnnotationMirror a,
+                                 AnnotationValue v) {
+        message(Diagnostic.Kind.MANDATORY_WARNING, msg, e, a, v);
+    }
+
     public static void note(CharSequence msg) {
         message(Diagnostic.Kind.NOTE, msg);
     }
