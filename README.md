@@ -1,5 +1,6 @@
 # JSR269Lib
 [![](https://jitpack.io/v/Mouse0w0/JSR269Lib.svg)](https://jitpack.io/#Mouse0w0/JSR269Lib)
+
 A Java library provide some utilities for JSR269 Pluggable Annotation Processing API
 
 ## How to use
@@ -33,14 +34,14 @@ Maven:
 	<dependency>
 	    <groupId>com.github.Mouse0w0</groupId>
 	    <artifactId>JSR269Lib</artifactId>
-	    <version>Tag</version>
+	    <version>1.0.0</version>
 	</dependency>
 ```
 
 Gradle:
 ```gradle
 	dependencies {
-	        implementation 'com.github.Mouse0w0:JSR269Lib:Tag'
+	        implementation 'com.github.Mouse0w0:JSR269Lib:1.0.0'
 	}
 ```
 
