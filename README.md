@@ -34,14 +34,14 @@ Maven:
 	<dependency>
 	    <groupId>com.github.Mouse0w0</groupId>
 	    <artifactId>JSR269Lib</artifactId>
-	    <version>1.0.0</version>
+	    <version>1.1.0</version>
 	</dependency>
 ```
 
 Gradle:
 ```gradle
 	dependencies {
-	        implementation 'com.github.Mouse0w0:JSR269Lib:1.0.0'
+	        implementation 'com.github.Mouse0w0:JSR269Lib:1.1.0'
 	}
 ```
 
